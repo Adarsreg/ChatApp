@@ -1,11 +1,11 @@
-import { MultiChatWindow } from "react-chat-engine-advanced"
+import { Register } from "./pages/Register"
 
 function App() {
 
 
   return (
     <div className="App">
-      <MultiChatWindow style={{ height: "100vh" }} />
+      <Register />
     </div>
   )
 }
