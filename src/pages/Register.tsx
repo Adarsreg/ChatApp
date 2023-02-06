@@ -7,7 +7,7 @@ export function Register() {
 
         <div className="flex flex-col items-center h-screen bg-gray-100 p-6 font-mono">
             <div className="w-full max-w-sm">
-                <h1 className="text-3xl text-blue-700 font-bold mb-6 font-sans display">CHAT ON</h1>
+                <h1 className="text-4xl text-blue-700 font-bold mb-6 font-sans display ">CHAT ON</h1>
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <div className="mb-4">
                         <input className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="display name" />
