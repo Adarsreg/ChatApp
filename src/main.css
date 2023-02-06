@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000000;
+    cursor: pointer;
+}

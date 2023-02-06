@@ -1,5 +1,5 @@
 import React from 'react'
-
+import addavatar from "../images/addavatar.png"
 export function Register() {
 
 
@@ -7,7 +7,7 @@ export function Register() {
 
         <div className="flex flex-col items-center h-screen bg-gray-100 p-6 font-mono">
             <div className="w-full max-w-sm">
-                <h1 className="text-4xl  font-black text-blue-600 mb-6">CHAT-ON</h1>
+                <h1 className="text-3xl text-blue-700 font-bold mb-6 font-sans display">CHAT ON</h1>
                 <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                     <div className="mb-4">
                         <input className="shadow appearance-none border rounded-lg w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="display name" />
@@ -19,10 +19,14 @@ export function Register() {
                         <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="password" />
                     </div>
                     <div className="mb-4">
-                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="file" />
+                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="file" id="file" style={{ display: "none" }} />
+                        <label htmlFor='file'>
+                            <img src={addavatar} alt="" className='h-10 w-10' />
+                            <span>Add an avatar</span>
+                        </label>
                     </div>
                     <div className="flex items-center justify-between">
-                        <button className="bg-blue-600 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
+                        <button className="bg-blue-700 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">
                             Sign up
                         </button>
                     </div>
