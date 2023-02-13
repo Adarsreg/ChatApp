@@ -31,7 +31,7 @@ export function Register() {
                         </button>
                     </div>
                 </form>
-                <p className="text-center text-gray-500">Have an existing account? <a className="text-blue-600 hover:underline" href="../pages/Login.tsx">Login</a></p>
+                <p className="text-center text-gray-500">Have an existing account? <a className="text-blue-600 hover:underline" href="">Login</a></p>
             </div>
         </div>
 
