@@ -11,8 +11,9 @@ const Home = () => {
     };
 
     return (
-        <div className='home bg-indigo-300 '>
+        <div className='home bg-[#4f595e]'>
             <Sidebar />
+            <Chat />
         </div>
 
     );

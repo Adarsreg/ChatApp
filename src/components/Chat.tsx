@@ -2,7 +2,7 @@ import React from 'react'
 
 const Chat = () => {
   return (
-    <div>Chat</div>
+    <div className='grid h-screen place-items-center'>too much shissadasdasdaskdhaksdj ksajd kasjd kajsd kasj dakjs dkajs dks</div>
   )
 }
 
