@@ -11,10 +11,8 @@ const Home = () => {
     };
 
     return (
-        <div className='home bg-indigo-300 h-screen flex-row flex items-center justify-center' >
-
+        <div className='home bg-indigo-300 '>
             <Sidebar />
-            <Chat />
         </div>
 
     );
