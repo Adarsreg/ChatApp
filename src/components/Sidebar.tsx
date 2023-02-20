@@ -8,8 +8,8 @@ function Sidebar(props: any) {
     const [channels, setChannels] = useState([]);
 
     return (
-        <div className={classNames("sidebar", { nonVisible: !sidebarOpen })}>
-            <div className="logo d-flex justify-content-between">
+        <div className={classNames("sidebar")}>
+            <div className="logo d-flex justify-content-between ">
                 <div className="logo-name">
 
                     CHATON
@@ -20,7 +20,7 @@ function Sidebar(props: any) {
                     alt=""
                 />
             </div>
-            <div className="vertical-menu pt-2">
+            <div className="vertical-menu pt-2 ">
                 <ul>
                     <li>
                         <img

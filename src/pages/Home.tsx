@@ -11,9 +11,11 @@ const Home = () => {
     };
 
     return (
-        <div className='home bg-[#4f595e]'>
-            <Sidebar />
-            <Chat />
+        <div className='home bg-[#4f595e] '>
+            <div className='container'>
+                <Sidebar />
+                <Chat />
+            </div>
         </div>
 
     );
