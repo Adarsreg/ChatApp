@@ -11,8 +11,8 @@ const Home = () => {
     };
 
     return (
-        <div className='home bg-[#4f595e] '>
-            <div className='container'>
+        <div className='home '>
+            <div className='container  '>
                 <Sidebar />
                 <Chat />
             </div>

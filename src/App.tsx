@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div className="App grid h-screen place-items-center">
+    <div className="App ">
       <Home />
     </div>
 
